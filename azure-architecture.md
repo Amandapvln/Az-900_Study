@@ -1,41 +1,39 @@
+# Desenvolvendo uma arquitetura Azure
+**Objetivo:** *Desenvolver um site portifólio pessoal, desenvolvendo a prática das habilidades na plataforma Azure, demonstrando conhecimentos em Cloud, infraestrutura e serviços do Azure.*
+
+### Serviços utilizados:
+- **Azure Static Web Apps:** para hospedar um site estático de portfólio.
+- **Azure Storage:** para armazenar arquivos, imagens e conteúdo estático.
+- **Azure App Service:** para hospedar sites dinâmicos ou aplicações web.
+- **Azure Functions:** para criar funcionalidades sem servidor, como formulários de contato.
+
+---
+
+Com os arquivos de (`index.html`, `style.css` e `script.js`) já estruturados e ***dentro do seu repositório no GitHub***, temos as telas estáticas prontas para o portifólio. O próximo passo é hospedar isso no Azure.
+
+### Passos para publicar o site no Azure Static Web Apps:
+
+1. Acessar o Azure Portal:
+   - Faça login no Azure Portal.
+
+2. Criar um recurso do Azure Static Web Apps:
+   - No painel do Azure, procure por "Aplicativos Web Estático" no campo de pesquisa.
+   - Clique em "Criar aplicativo Web estático".
+   - Escolha um nome para seu aplicativo.
+   - Selecione a assinatura gratuita.
+   - Para o Source, escolha "GitHub" (ou ignore caso esteja fazendo o deploy manualmente).
+   - Siga o fluxo de autorização do GitHub.
+   - Clique em Revisar + Criar.
+   - Clique em Criar e aguarde a implantação.
+   - Ao finalizar, clique em Ir para o recurso.
+   - Ao abrir a tela do portifolio-pessoal, clique em Exibir aplicativo no navegador e está pronto!
+   - **Link de acesso ao portifólio criado:** https://white-wave-0f3db201e.5.azurestaticapps.net/
+
+![image](https://github.com/user-attachments/assets/28fff0c7-1f75-4dbe-a505-43f1924e40b1)
+![image](https://github.com/user-attachments/assets/af092a3d-d81f-4f37-b2f3-afae4917559c)
+![image](https://github.com/user-attachments/assets/be093bcc-41e9-472a-98b9-03ccfe0b0739)
+![image](https://github.com/user-attachments/assets/66e81ba3-1bfc-4068-9a89-b695e9aba2de)
+![image](https://github.com/user-attachments/assets/1ed0f077-5f2e-4504-816f-9c0bbd7ab3d6)
+![image](https://github.com/user-attachments/assets/d712faa6-61d2-4a90-97f8-c565b1f79100)
 
 
-#Passo 1: Criar um Armazenamento Blob para Hospedar o Front-end
-- No portal do Azure, vá em Armazenamento > Contas de Armazenamento.
-- Crie uma nova conta de armazenamento.
-- No armazenamento, crie um contêiner público para armazenar arquivos estáticos.
-- Faça upload do seu site estático (HTML, CSS, JavaScript) no contêiner.
-- Habilite a publicação de páginas estáticas.
-![image](https://github.com/user-attachments/assets/9b298236-fa54-4891-9051-1ad4804c7a33)
-![image](https://github.com/user-attachments/assets/bdad6f7b-9a7e-48ae-9021-add468cce1cc)
-![image](https://github.com/user-attachments/assets/35dd28d8-5e91-47ad-8505-f18453582026)
-![image](https://github.com/user-attachments/assets/66bfc419-1bb3-487f-a044-2e11f25abb96)
-![image](https://github.com/user-attachments/assets/e79e1f07-f03b-4695-8cd2-3c0db41c4fe6)
-
-#Passo 2: Criar uma API Serverless com Azure Functions
-- No portal do Azure, procure por Funções do Azure.
-- Crie uma nova Função do Azure usando o plano de consumo gratuito.
-- Escolha um template (ex: HTTP trigger) para configurar sua API.
-- Escreva a lógica da API (por exemplo, retornando dados JSON).
-- Implante a função e teste o endpoint gerado.
-
-#Passo 3: Criar um Banco de Dados SQL no Azure
-- No portal, vá em Bancos de Dados SQL > Criar Banco de Dados.
-- Escolha um nome para seu banco e um servidor SQL gratuito.
-- Configure o banco com os parâmetros básicos (para ficar dentro do plano gratuito).
-- Conecte a API criada na Azure Function ao banco de dados SQL, usando uma string de conexão.
-
-#Passo 4: Automatizar o Deploy com Azure DevOps
-- Use o Azure DevOps para criar pipelines de CI/CD.
-- Crie um repositório Git no Azure Repos ou GitHub.
-- No Azure DevOps, configure um pipeline para automaticamente fazer o deploy do seu código nas Azure Functions e do front-end no Blob Storage.
-
-#Componentes da Arquitetura
-- Armazenamento Blob: Hospeda arquivos estáticos.
-- Azure Functions: Executa a lógica da API de maneira escalável e sem servidores.
-- Banco de Dados SQL: Armazena dados de maneira relacional.
-- Azure DevOps: Gerencia o ciclo de vida da aplicação com pipelines de CI/CD.
-
-#4. Monitoramento e Escalabilidade
-Use o Azure Monitor (disponível gratuitamente) para monitorar a saúde dos serviços.
-Application Insights pode ser integrado nas Azure Functions para rastrear o desempenho da API.

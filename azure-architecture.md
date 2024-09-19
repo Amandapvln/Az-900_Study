@@ -11,7 +11,7 @@
 
 Com os arquivos de (`index.html`, `style.css` e `script.js`) já estruturados e ***dentro do seu repositório no GitHub***, temos as telas estáticas prontas para o portifólio. O próximo passo é hospedar isso no Azure.
 
-### Passos para publicar o site no Azure Static Web Apps:
+### Azure Static Web Apps (para hospedar o site):
 
 1. Acessar o Azure Portal:
    - Faça login no Azure Portal.
@@ -36,4 +36,24 @@ Com os arquivos de (`index.html`, `style.css` e `script.js`) já estruturados e 
 ![image](https://github.com/user-attachments/assets/1ed0f077-5f2e-4504-816f-9c0bbd7ab3d6)
 ![image](https://github.com/user-attachments/assets/d712faa6-61d2-4a90-97f8-c565b1f79100)
 
+# Próximos passos a serem feitos:
 
+### Azure Storage (para armazenar arquivos e imagens estáticas):
+1. Criar uma Conta de Armazenamento:
+   - No Azure Portal, pesquise por Storage Accounts (ou conta de armazenamento).
+   - Clique em Criar e preencha os dados, como nome e assinatura gratuita.
+2. Criar um Container no Blob Storage:
+   - Acesse o recurso criado e clique em Containers.
+   - Crie um container público para armazenar suas imagens e arquivos estáticos.
+   - Suba os arquivos e use os links gerados nas páginas do seu site (para imagens, por exemplo).
+
+### Azure Functions (para criar um formulário de contato ou backend leve):
+1. Criar uma Azure Function:
+   - No Azure Portal, pesquise por Functions e clique em Criar.
+   - Escolha HTTP Trigger como o tipo de função (para receber dados de um formulário de contato).
+   - No código da função, adicione lógica para processar o formulário (por exemplo, enviar um e-mail ao ser submetido).
+2. Configurar o Frontend:
+   - No formulário de contato da página, envie os dados para a Azure Function que você acabou de configurar.
+
+### Azure App Service (para hospedar sites dinâmicos, se necessário):
+   - O Azure App Service seria usado se você quisesse adicionar lógica dinâmica no portfólio. Se o site for estático, você pode pular essa etapa, mas caso queira criar uma aplicação web (como um blog), podemos configurar.

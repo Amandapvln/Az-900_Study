@@ -12,3 +12,4 @@ Aqui, você encontrará todo o conteúdo abordado no curso de certificação pro
    - [Configurando uma instância de banco de dados](https://github.com/Amandapvln/Az-900_Study/blob/main/azure-db.md)
    - [Construindo Arquiteturas no Azure](https://github.com/Amandapvln/Az-900_Study/blob/main/azure-architecture.md)
    - [Configurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure](https://github.com/Amandapvln/Az-900_Study/blob/main/recursos-e-dimensionamentos-vm.md)
+   - [Entendendo sobre Segurança e Identidade na Azure](https://github.com/Amandapvln/Az-900_Study/blob/main/security%26identity.md)

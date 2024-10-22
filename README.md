@@ -2,10 +2,11 @@
 <img src="https://github.com/user-attachments/assets/7fa7a5ef-e1fd-4bf2-a010-2b5057f40e29" alt="Image" width="250" aling="center"/>
 
 Aqui, você encontrará todo o conteúdo abordado no curso de certificação proposto pela plataforma DIO juntamente com a Microsoft.
-- Desafio de código: Explorando Arquitetura e Serviços Azure com Lógica de Programação
-  - [Identificando os Componentes de Arquitetura do Azure](https://github.com/Amandapvln/Az-900_Study/blob/main/desafio-logica-1.md)
-  - [Explorando os Serviços de Armazenamento do Azure](https://github.com/Amandapvln/Az-900_Study/blob/main/desafio-logica-2.md)
-  - [Associando Recursos de Identidade, Acesso e Segurança](https://github.com/Amandapvln/Az-900_Study/blob/main/desafio-logica-3.md)
+- Desafio de código:
+  - *Explorando Arquitetura e Serviços Azure com Lógica de Programação*
+     - [Identificando os Componentes de Arquitetura do Azure](https://github.com/Amandapvln/Az-900_Study/blob/main/desafio-logica-1.md)
+     - [Explorando os Serviços de Armazenamento do Azure](https://github.com/Amandapvln/Az-900_Study/blob/main/desafio-logica-2.md)
+     - [Associando Recursos de Identidade, Acesso e Segurança](https://github.com/Amandapvln/Az-900_Study/blob/main/desafio-logica-3.md)
     
 - Desafios de projeto:
    - [Criando máquinas Virtuais na Azure](https://github.com/Amandapvln/Az-900_Study/blob/main/azure-vm-setup.md)

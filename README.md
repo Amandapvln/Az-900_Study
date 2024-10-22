@@ -15,3 +15,4 @@ Aqui, você encontrará todo o conteúdo abordado no curso de certificação pro
    - [Configurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure](https://github.com/Amandapvln/Az-900_Study/blob/main/recursos-e-dimensionamentos-vm.md)
    - [Entendendo sobre Segurança e Identidade na Azure](https://github.com/Amandapvln/Az-900_Study/blob/main/security%26identity.md)
    - [Otimizando Custos no Azure](https://github.com/Amandapvln/Az-900_Study/blob/main/optimization.md)
+   - [Gerenciando Políticas e Acessos no Azure](https://github.com/Amandapvln/Az-900_Study/blob/main/gerenciamento-politicas%26acesso.md)

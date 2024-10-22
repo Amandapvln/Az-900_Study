@@ -16,3 +16,6 @@ Aqui, você encontrará todo o conteúdo abordado no curso de certificação pro
    - [Entendendo sobre Segurança e Identidade na Azure](https://github.com/Amandapvln/Az-900_Study/blob/main/security%26identity.md)
    - [Otimizando Custos no Azure](https://github.com/Amandapvln/Az-900_Study/blob/main/optimization.md)
    - [Gerenciando Políticas e Acessos no Azure](https://github.com/Amandapvln/Az-900_Study/blob/main/gerenciamento-politicas%26acesso.md)
+   - [Ferramentas de Implantação na Azure](https://github.com/Amandapvln/Az-900_Study/blob/main/ferramentas%20de%20implantacao.md)
+
+*Observação: Alguns dos conteúdos do Desafio de projeto foram feitos apenas como um breve resumo do conteúdo abordado sem os prints de tela, pois o meu acesso gratuito à plataforma Azure acabou depois de 1 mês de uso.*
